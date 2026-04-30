@@ -1,0 +1,5 @@
+username,real_name,role_id,password,dept_id,major_id
+test_teacher4,月老师,2,teacher123,1
+test_student4,小明,3,student123,1,1
+test_student5,小红,3,student123,1,1
+
