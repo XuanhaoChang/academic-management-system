@@ -1,3 +1,41 @@
-*.zip
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+config.ini
+.env
+.env.*
+!.env.example
+*.cer
+*.pfx
+
+# Runtime output
+*.log
+logs/
+exports/
+backups/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.zip
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
